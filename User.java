@@ -22,6 +22,12 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public User(String username, String password, String name) {
+		super();
+		this.username = username;
+		this.password = password;
+		this.name = name;
+	}
 	
 
 }
